@@ -1,0 +1,24 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "main": "main.html",
+  "chromium-args": "--mixed-context",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "heart rate monitor",
+    "toolbar": true,
+    "frame": true,
+    "width": 1200,
+    "height": 500,
+    "position": "mouse",
+    "min_width": 400,
+    "min_height": 200,
+    "max_width": 1500,
+    "max_height": 600
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

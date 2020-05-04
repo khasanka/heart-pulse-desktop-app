@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <script src="js/2.5.0-Chart.min.js"></script>
+    </head>
+
+    <body onload="javascript:init()">
+        <h2 align="center"> Hart Beat Analizer </h2>
+        <div align="right">
+            <select id="usbports" onclick="getAvailableUSBports()" onchange="initiateGraph()" >
+                <option>select usb port</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <canvas id="line-chart" width="800" height="250"  style="background-color: #000000;"></canvas>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+
+</html>

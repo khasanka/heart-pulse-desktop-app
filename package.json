@@ -1,0 +1,21 @@
+{
+  "name": "hartrate-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "chromium-args": "--mixed-context",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win64,linux64 --buildDir dist/ src/"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.45.4",
+    "nw-builder": "^3.5.7"
+  },
+  "dependencies": {
+    "browser-serialport": "^2.1.0",
+    "chart.js": "^2.9.3"
+  }
+}
