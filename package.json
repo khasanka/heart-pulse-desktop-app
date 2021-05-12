@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "browser-serialport": "^2.1.0",
-    "chart.js": "^2.9.3"
+    "chart.js": "^2.9.4"
   }
 }
